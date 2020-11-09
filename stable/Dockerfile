@@ -9,3 +9,5 @@ RUN sudo apt-get update && \
 
 RUN cargo install cargo-audit && \
     rm -rf /usr/local/cargo/registry
+
+RUN rustup component add clippy
