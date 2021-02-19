@@ -1,4 +1,4 @@
-FROM circleci/rust:latest
+FROM circleci/rust:1.50
 
 LABEL org.opencontainers.image.vendor = "Input Output HK Limited"
 LABEL org.opencontainers.image.description = "CI image for Jormungandr"
