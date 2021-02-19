@@ -11,5 +11,3 @@ We build images under two tags:
 [nightly-image]: https://hub.docker.com/r/rustlang/rust
 
 The Protobuf compiler is installed into both images.
-The `stable` image additionally has clippy and the `cargo audit` command
-installed.
